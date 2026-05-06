@@ -1,0 +1,19 @@
+{
+
+      "addOns": {
+        "common": {
+          "name" : "addon",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png",
+          "homepageTrigger": {
+            "runFunction": "myFunction",
+            "enabled": true
+          }
+        }
+      },
+  "timeZone": "America/New_York",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+
+}
