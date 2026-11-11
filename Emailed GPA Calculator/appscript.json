@@ -1,0 +1,23 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://mail.google.com/",
+    "https://www.googleapis.com/auth/gmail.metadata", 
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.modify",
+    "https://www.googleapis.com/auth/gmail.addons.execute"
+  ],
+  "addOns": {
+    "common": {
+      "name": "calcTrigger",
+      "logoUrl": "https://instructure-uploads.s3.amazonaws.com/account_56980000000000001/attachments/448674/logo_wM4_icon.ico",
+      "homepageTrigger": {
+        "runFunction": "buildAddOn"
+      }
+    },
+    "gmail": {}
+  }
+}
